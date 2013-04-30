@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Delicious recipes you can make with your Hurom Slow Juicer">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <!--<script type="text/javascript" src="/includes/hover-fix.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+    <script id="demo" type="text/javascript">
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+      });
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">-->
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.10.2.custom.css" />
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.php"><img src="/images/logo.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div id="nav">
+  <ul>
+    <li class="current"><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a>
+      <ul>
+        <li><a href="/content/products.html">Products</a></li>
+        <li><a href="/content/sss.html">SSS&trade;</a></li>
+        <li><a href="/content/superjuice.html">SuperJuice</a></li>
+        <li><a href="/content/why-hurom.html">Why&nbsp;Hurom?</a></li>
+        <li><a href="/content/versatility.html">Versatility</a></li>
+      </ul>
+    </li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="content">
+  <h1>Recipes</h1>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-fruit-juice">Fruit Juice</a></li>
+      <li><a href="#tabs-vegetable-juice">Vegetable Juice</a></li>
+      <li><a href="#tabs-nut-juice">Nut Juice</a></li>
+      <li><a href="#tabs-ice-cream">Ice Cream</a></li>
+    </ul>
+
+    <div id="tabs-fruit-juice" class="tabby">
+      <div class="section recipe">
+  <h2>Orange Juice</h2>
+  <p>Oranges have Vitamin C, flavinoid and beta-carotene to prevent ageing, strengthen the immune system and raise
+    resistance against sickness and cancer.</p>
+
+  <img src="/images/recipes/orange-juice.jpg" class="left" alt="orange juice" />
+  <div>
+    <img src="/images/recipes/orange-juice-steps.jpg" alt="orange juice" />
+    <ol>
+      <li>Peel the fruit and cut into sixths.</li>
+      <li>Use either strainer - the finer one will result in a clearer juice</li>
+      <li>Put the prepared orange pieces into the Slow Juicer</li>
+    </ol>
+    <p class="tip">Run the extracted juice through the Slow Juicer a second time for even clearer juice and less residue left in the strainer.</p>
+  </div>
+</div>
+
+<div class="section recipe">
+  <h2>Grape Juice</h2>
+  <p>The purple colour of the grape juice is caused by the presence of flavonoids which can prevent blood clots, strengthen the heart and promote muscular strength. Also present are pectins and tannins which are great for the digestive system.</p>
+
+  <img src="/images/recipes/grape-juice.jpg" class="left" alt="grape juice" />
+  <div>
+    <img src="/images/recipes/grape-juice-steps.jpg" alt="grape juice" alt="Grape Juice" />
+    <ol>
+      <li>Wash and separate the grapes</li>
+      <li>Run grapes through the Slow Juicer</li>
+      <li>Run the extracted juice through the Slow Juicer</li>
+    </ol>
+    <p class="note">Don't run the grape residue through the Slow Juicer a second time as this may damage the machine.</p>
+    <p class="tip">Add a watermelon! Juicing watermelon with grapes increases absorption and makes for an effective diuretic.</p>
+  </div>
+</div>
+
+  <h2>Strawberry Juice</h2>
+<p>Strawberries are high in Vitamin C, a key ingredient for cell healing, detoxifying. One serving - around eight strawberries - contains more than an orange and will provide your recommended daily dose.</p>
+<img src="/images/recipes/strawberry-juice.png" class="right" alt="Strawberry Juice" />
+<ol>
+  <li>Wash strawberries and leave the stem attached.</li>
+  <li>Put the prepared strawberries into the Slow Juicer</li>
+</ol>
+<img src="/images/recipes/strawberry-juice-steps.png" class="recipe-steps" alt="Strawberry Juice" />
+<p class="tip">TIP: Put the whole strawberry including the stem into the Slow Juicer. It is not only less troublesome, but the juice is extracted better.</p>
+
+<h2>Apple Juice</h2>
+<p>Apples are abundant in vitamins and minerals and are a great source of fibre. They can assist digestion and absorption of iron and contain citric acid which relieves stress and fatigue.</p>
+<img src="/images/recipes/apple-juice.png" class="right" alt="Strawberry Juice" />
+<ol>
+  <li>Wash apples and leave the peel on</li>
+  <li>Cut apple into sixths and remove the core</li>
+  <li>Put the prepared apple into the Slow Juicer</li>
+</ol>
+<img src="/images/recipes/apple-juice-steps.png" class="recipe-steps" alt="Strawberry Juice" />
+<p class="tip">TIP: Use the white strainer to produce a clearer juice. The type of apples and the season may affect the speed of juicing and amount of foam.</p>
+
+
+<h2>Kiwi Juice</h2>
+<p>Kiwis are abundant in Vitamin C which can help controls ageing and prevent cancer and cataracts. It is helpful in smoothing skin and stress and is also good for smokers</p>
+<img src="/images/recipes/kiwi-juice.png" class="right" alt="Kiwi Juice" />
+<ol>
+  <li>Lightly brush the kiwi with a brush to remove the fine hairs and cut into quarters with the peel on</li>
+  <li>Put the prepared kiwi into the slow juicer</li>
+  <li>The kiwi peel is extracted through the separate output</li>
+</ol>
+<img src="/images/recipes/kiwi-juice-steps.png" class="recipe-steps" alt="Kiwi Juice" />
+<p class="tip">TIP: Gold kiwi v green kiwi. There are two different colours of kiwi and the nutrients in each differs slightly. The green kiwi is more sour and good for dietary purposes. The gold kiwi is sweet and is a good snack for picky kids that need vitamins and minerals</p>
+
+<h2>Pomegranate Juice</h2>
+<p>Pomegranates contain the female hormone estrogen so it is effective for women going through menopause. The seeds contain estrogen and the pulp contains vitamins to give energy and treat high  blood pressure and blood clots.</p>
+<img src="/images/recipes/pomegranate-juice.png" class="right" alt="Pomegranate Juice" />
+<ol>
+  <li>Open the outer peel and take out the fruit</li>
+  <li>Put the prepared fruit into the Slow Juicer</li>
+</ol>
+<img src="/images/recipes/pomegranate-juice-steps.png" class="recipe-steps" alt="Pomegranate Juice" />
+<p class="tip">TIP: The origin of the pomegranate may affect the color and amount of juice</p>
+    </div>
+    <div id="tabs-vegetable-juice" class="tabby">
+      <h2>Fruit Juice</h2>
+    </div>
+    <div id="tabs-nut-juice" class="tabby">
+      <h2>Fruit Juice</h2>
+    </div>
+    <div id="tabs-ice-cream" class="tabby">
+      
+    </div>
+  </div>
+
+</div>
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

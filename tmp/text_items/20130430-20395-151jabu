@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer - Hurom Slow Juicer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hurom Australia - The Original and Best Slow Juicers on the Market">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="http://cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.selectbox/0.2/js/jquery.selectbox-0.2.min.js"></script>
+    <script src="/scripts/shop.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="/css/jquery-ui-1.10.2.custom.css" />
+    <link rel="stylesheet" href="/css/colorbox.css" />
+    <link rel="stylesheet" href="/css/jquery.selectbox.css" />
+
+    <script>
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+        $(".faq").colorbox({
+          inline: true,
+          width: "50%"
+        });
+        $(".juicer-thumbs").colorbox({
+          rel: "juicer-thumbs"
+        });
+        $("#model").selectbox();
+
+        var page = location.pathname.match(/\w*.html/)[0].split('.')[0];
+        var full_path = location.href.split("#")[0];
+        $("#nav li").each(function(){
+          var href = jQuery(this).find('a').attr('href');
+          var $this = $(this);
+          if (href === window.location.pathname) {
+            $this.addClass("current");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.html"><img src="/images/logo@2x.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div class="facebook">
+  <div class="fb-like" data-href="http://www.facebook.com/pages/Hurom-Juicer/108616922534778" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false"></div>
+</div>
+    <div id="nav">
+  <ul>
+    <li class="current"><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a></li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="banner">
+  <div id="banner-inner">
+    <h1>Welcome to the Juicing Revolution</h1>
+    <p>
+      Hurom's world patented Slow Squeezing System naturally presses fruit and vegetables without heat or friction to
+      produce the healthiest, freshest juice that tastes simply amazing!
+    </p>
+    <p style="margin-bottom: 0;"><a href="/content/juicer.html#tabs-sss">Read More</a></p>
+  </div>
+</div>
+<img src="/images/why-hurom.png" alt="Hurom Slow Juicer vs traditional juicer" style="margin: 20px;" />
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

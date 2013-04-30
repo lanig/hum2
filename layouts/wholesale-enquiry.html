@@ -1,0 +1,47 @@
+<form id="wholesale_form" class="enquiry" method="post" action="wholesalecontactussubmitted.php">
+
+  <label for="firstname">First Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="firstname" name="firstname" /><br />
+
+  <label for="lastname">Last Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="lastname" name="lastname" /><br />
+
+  <label for="email">Email&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="email" name="email" /><br />
+
+  <label for="phone">Phone&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="phone" name="phone" /><br />
+
+  <label for="position">Position&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="position" name="position" /><br />
+
+  <label for="company">Company&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="company" name="company" /><br />
+
+  <label for="abn">ABN&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="abn" name="abn" /><br />
+
+  <label for="employees">Number of Employees&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="employees" name="employees" /><br />
+
+  <label for="products">What other products do you sell?&nbsp;<span class="mandatory">*</span></label>
+  <textarea id="products" cols="40" rows="5" name="products"></textarea><br />
+
+  <label>Do you need drop-ship services?&nbsp;<span class="mandatory">*</span></label>
+  <input type="radio" name="dropship" value="Yes">Yes
+  <input type="radio" name="dropship" value="No">No<br />
+
+  <label>Type of Business&nbsp;<span class="mandatory">*</span> (check all that apply)</label>
+  <span class="check-item"><input type="checkbox" name="business[]" value="retailshop">Retail Shop</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="onlinesite">Online Site</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="ebay">eBay</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="mailorder">Mail-order</span><br />
+
+  <label for="comment">Comment&nbsp;<span class="mandatory">*</span></label>
+  <textarea id="comment" cols="40" rows="5" name="comment"></textarea><br />
+
+  <input src="/images/submitButton.png" type="submit" value="Submit"/>
+</form>
+
+<p class="hotline">Hurom Australia Hotline: 1300 714 462</p>
+<p class="required"><span class="mandatory">*</span> Required field</p>

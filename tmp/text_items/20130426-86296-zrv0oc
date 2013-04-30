@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hurom Australia - The Original and Best Slow Juicers on the Market">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <!--<script type="text/javascript" src="/includes/hover-fix.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+    <script id="demo" type="text/javascript">
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+      });
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.10.2.custom.css" />
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.php"><img src="/images/logo.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div id="nav">
+  <ul>
+    <li class="current"><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a>
+      <ul>
+        <li><a href="/content/products.html">Products</a></li>
+        <li><a href="/content/sss.html">SSS&trade;</a></li>
+        <li><a href="/content/superjuice.html">SuperJuice</a></li>
+        <li><a href="/content/why-hurom.html">Why&nbsp;Hurom?</a></li>
+        <li><a href="/content/versatility.html">Versatility</a></li>
+      </ul>
+    </li>
+    <li><a href="/content/recipes.html">Recipes</a>
+      <ul>
+        <li><a href="/content/recipes/fruit-juice.html">Fruit Juice</a></li>
+        <li><a href="/content/recipes/vegetable-juice.html">Vegetable Juice</a></li>
+        <li><a href="/content/recipes/nut-juice.html">Nut Juice</a></li>
+        <li><a href="/content/recipes/ice-cream.html">Ice Cream</a></li>
+      </ul>
+    </li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="banner">
+  <div id="banner-inner">
+    <h1>Welcome to the Juicing Revolution</h1>
+    <p>
+      Hurom's world patented Slow Squeezing System naturally presses fruit and vegetables without heat or friction to
+      produce the healthiest, freshest juice that tastes simply amazing!
+    </p>
+    <p><a href="/content/sss.html">Read More</a></p>
+  </div>
+</div>
+<!--<img src="/images/home1.jpg" alt="" class="bordered" />-->
+<!--<img src="/images/home2.jpg" alt="" class="bordered" />-->
+<!--<img src="/images/home3.jpg" alt="" class="bordered last" />-->
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

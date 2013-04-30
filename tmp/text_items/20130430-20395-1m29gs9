@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer - Frequently Asked Questions</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Find out everything there is to know about the Hurom Slow Juicer, how to use it and its benefits">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.selectbox/0.2/js/jquery.selectbox-0.2.min.js"></script>
+    <script src="/scripts/jquery.elevateZoom-2.5.5.min.js"></script>
+    <script src="/scripts/shop.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="/css/jquery-ui-1.10.2.custom.css" />
+    <link rel="stylesheet" href="/css/jquery.selectbox.css" />
+
+    <script>
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+//        $(".faq").colorbox({
+//          inline: true,
+//          width: "50%"
+//        });
+//        $(".juicer-thumbs").colorbox({
+//          rel: "juicer-thumbs"
+//        });
+        $("#model").selectbox();
+
+        $("#nav li").each(function(){
+          var href = jQuery(this).find('a').attr('href');
+          if (href === window.location.pathname) {
+            $(this).addClass("current");
+          }
+        });
+
+        $("#zoom_03").elevateZoom({
+          gallery:'thumbs',
+          cursor: 'pointer',
+          galleryActiveClass: "active",
+          zoomWindowPosition: 1,
+          zoomWindowOffetx: 30
+        });
+
+        $("#zoom_03").bind("click", function(e) {
+          var ez =   $('#zoom_03').data('elevateZoom');
+          ez.closeAll(); //NEW: This function force hides the lens, tint and window
+          $.fancybox(ez.getGalleryList());
+          return false;
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.html"><img src="/images/logo@2x.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div class="facebook">
+  <div class="fb-like" data-href="http://www.facebook.com/pages/Hurom-Juicer/108616922534778" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false"></div>
+</div>
+    <div id="nav">
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a></li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="content" xmlns="http://www.w3.org/1999/html">
+  <h1>Frequently Asked Questions</h1>
+
+  <div id="faq-questions">
+    <a name="getting-started"></a>
+    <h2>Getting started</h2>
+    <ul>
+      <li><a href="#faq3436">I hate reading instructions and want to start juicing straight away - what quick tips can you give me?</a></li>
+    </ul>
+
+    <a name="preparation"></a>
+    <h2>Preparation</h2>
+    <ul>
+      <li><a href="#faq3305">What's the best way to prepare fruits, vegetables and leafy greens for juicing in the Hurom Slow Juicer?</a></li>
+      <li><a href="#faq3340">Do I need to core apples before juicing?</a></li>
+      <li><a href="#faq3342">What are the best apples for juicing? </a></li>
+      <li><a href="#faq3343">Do I need to peel citrus fruits before juicing?</a></li>
+      <li><a href="#faq3373">Do I need to refrigerate fruits and vegetables before juicing them?</a></li>
+      <li><a href="#faq3309">What's the best way to prepare nuts for making nut milks?</a></li>
+    </ul>
+
+    <a name="what-to-juice"></a>
+    <h2>What to juice</h2>
+    <ul>
+      <li><a href="#faq3346">What can I juice with a Hurom and what should I avoid?</a></li>
+      <li><a href="#faq3345">Can I grind seeds, grains or legumes with the Hurom?</a></li>
+      <li><a href="#faq3347">Can the Hurom make pasta?</a></li>
+      <li><a href="#faq3348">Can the Hurom make cold press olive oil?</a></li>
+      <li><a href="#faq3311">How does the Hurom cope with fibrous items such as celery and vanilla pods?</a></li>
+      <li><a href="#faq3335">Can I make frozen sorbets with the Hurom?</a></li>
+      <li><a href="#faq3310">Can I make nut butters with the Hurom?</a></li>
+      <li><a href="#faq3374">Do you have a Nut Milk primer available?</a></li>
+    </ul>
+
+    <a name="operating"></a>
+    <h2>Operating the Hurom Slow Juicer</h2>
+    <ul>
+      <li><a href="#faq3336">Is it safe to operate the Hurom with wet hands?</a></li>
+      <li><a href="#faq3306">My Hurom keeps jamming, how do I prevent this from happening?</a></li>
+      <li><a href="#faq3337">Can I re-juice the discarded pulp from the Hurom in order to get more juice?</a></li>
+      <li><a href="#faq3339">Is the Hurom suitable for commercial environments?</a></li>
+      <li><a href="#faq3344">How long can I keep a Hurom juice for before it goes bad?</a></li>
+    </ul>
+
+    <a name="maintenance"></a>
+    <h2>Maintenance and cleaning</h2>
+    <ul>
+      <li><a href="#faq3334">What's the best way to clean the Hurom and can I put the Hurom parts into a dishwasher?</a></li>
+      <!--<li><a href="#faq3349">Can I buy spares for the Hurom such as replacement wiper blades or jugs?</a></li>-->
+      <li><a href="#faq3350">I've got a technical issue with my Hurom, who do I call for assistance?</a></li>
+      <li><a href="#faq3469">Rubber yellow stopper on the underside of the drum - what purpose does it serve?</a></li>
+    </ul>
+
+    <a name="general-questions"></a>
+    <h2>General questions</h2>
+    <ul>
+      <li><a href="#faq3352">I'd like to recommend the Hurom to friends/colleagues/customers. Is there any agent/reseller programs you have in place to reward me for doing so?</a></li>
+    </ul>
+  </div>
+
+  <div id="faq-answers">
+    <div class="answer">
+      <a name="faq3436"></a>
+      <h3>I hate reading instructions and want to start juicing straight away - what quick tips can you give me?</h3>
+      <p>1. Always juice with the yellow rubber ejection stopper (on the underside of the drum) inserted into the slot. It's removable to allow for easier removal of pulp when cleaning. If you don't have it inserted then the Hurom will operate inefficiently and the pulp tube will become blocked very quickly.</p>
+      <p>2. Refrigerate your produce. Room temperature produce will not produce as much juice, it will be prone to higher temperatures when juicing which will result in less living enzymes and nutrients and poorer tasting juice.</p>
+      <p>3. Always clean your Hurom straight after juicing. It's just easier and no, don't put it in the dish washer. Leaving it for any length of time will only make cleaning harder.</p>
+      <p>4. Pre-prep all produce so that it is small enough to fall down the feeder chute without needing to be forced down. The Hurom is a fine instrument that will "sing" if played well - forcing produce into it will result in a suboptimal juicing experience.</p>
+      <p>5. Read the rest of this FAQ</p>
+      <p>6. Read the manufacturers instructions.</p>
+      <a href="#" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3305"></a>
+      <h3>What's the best way to prepare fruits, vegetables and leafy greens for juicing in the Hurom Slow Juicer?</h3>
+      <h4>Vegetables</h4>
+      <p>We recommend preparing your vegetables by cutting them into a size so that the pieces will just fall through the feeder chute without needing to be pushed down. Chop carrots into half-inch discs and all other root vegetables such as beetroot to a similar size.</p>
+
+      <h4>Fruits</h4>
+      <p>Ensure you cut pieces into a size that will easily drop down the feeder chute. Remove skins from citrus fruits. If the Hurom becomes clogged then this can be remedied by feeding a different textured fruit or vegetable through.</p>
+
+      <h4>Leafy greens</h4>
+      <p>Roll leaves into cigar shaped parcels and then fold them in half, ensuring that the size is not too big for the feeder chute. You may notice with some shinier leafy greens that they can on occasion clog Hurom &ndash; this can be remedied by adding a few pieces of carrot or other fibrous vegetables which then clears the mechanism. Also, wet leaves will not pass through the juicer as well as drier leaves so when washing produce, pat it dry with a kitchen towel before inserting into the Hurom.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3340"></a>
+      <h3>Do I need to core apples before juicing?</h3>
+      <p>Yes it is best to core apples before juicing. We recommend using a quality apple corer available from most homewares stores.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3342"></a>
+      <h3>What are the best apples for juicing? </h3>
+      <p>We find that chilled granny smiths, cored are the best.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3343"></a>
+      <h3>Do I need to peel citrus fruits before juicing?</h3>
+      <p>Yes. Firstly, the Hurom is not a peeling device and secondly juiced citrus peel doesn't taste that great. Also, we've found that attempting to juice whole pieces of orange and lemon peel can clog the Hurom and has on one occasion broken the strainer in our test labs. So definitely don't do it.</p>
+      <p>There is one exception to this rule and that is lemon rind. We've found that juicing whole lemon (flesh and rind) works really well with green apple juice and also is required in some medicinal recipes. The ideal proportions are 1/2 lemon + 2 Granny Smiths apples. The only rule though is to cut the lemon into small pieces so you don't encounter issues as described above. Cut a 1/2 lemon into about 8 pieces and you should be fine.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3373"></a>
+      <h3>Do I need to refrigerate fruits and vegetables before juicing them?</h3>
+      <p>Apart from tasting better when juiced, refrigerated fruits and vegetables will provide a higher yield of juice than room temperature product. This is because the fibre in refrigerated product is firmer when chilled and consequently provides more juice when crushed in the Hurom compared to a softer/warmer fruit or vegetable.</p>
+      <p>For these reasons, we strongly recommend refrigerating all product you plan juicing in the Hurom.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3309"></a>
+      <h3>What's the best way to prepare nuts for making nut milks?</h3>
+      <p>We recommend raw almonds as the best nut (although it is actually classified as a kernel) for making milks with. All nuts should be soaked for 12-24 hours and then rinsed thoroughly before feeding into the Hurom simultaneously with water &ndash; we have found that 250gms of dried nuts makes a good, creamy 1 litre of milk. Add more nuts to water for a creamier consistency.</p>
+      <p>Use only raw nuts and avoid any roasted/cooked nuts. Other nuts worth trying either in combination with almonds or alone are: brazils, macadamias, hazelnuts, walnuts and pecans.</p>
+      <p>We also recommend adding agave syrup, maple syrup, cacao nibs, dates (with stones removed), apple juice, cinnamon as sweeteners and flavour enhancers to your favourite nut milk.</p>
+      <a href="#getting-started" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3346"></a>
+      <h3>What can I juice with a Hurom and what should I avoid?</h3>
+      <p>Can juice:</p>
+      <ul>
+        <li>Just about all veggies</li>
+        <li>All fruits</li>
+      </ul>
+      <p>Do not juice (attempting to do so will void your warranty)</p>
+      <ul>
+        <li>Coconuts</li>
+        <li>Seeds</li>
+        <li>Unsoaked/roasted nuts</li>
+        <li>Legumes</li>
+        <li>Sugar Cane</li>
+        <li>Anything frozen</li>
+        <li>Fish/Meat</li>
+        <li>Liquorice root or other woody materials</li>
+        <li>Dried herbs / spices</li>
+        <li>Stone fruit with stones in</li>
+      </ul>
+      <p>If you're in doubt about something not mentioned on this list then drop us a line <a href="mailto:info@hurom.com.au">info@hurom.com.au</a> and we'll respond within 24 hours.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3345"></a>
+      <h3>Can I grind seeds, grains or legumes with the Hurom?</h3>
+      <p>All of these require specialist mills for grinding. The Hurom is not capable of such a task and warranty will be voided if this is attempted and damage occurs to the Hurom.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3347"></a>
+      <h3>Can the Hurom make pasta?</h3>
+      <p>No. Please don't try either.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3348"></a>
+      <h3>Can the Hurom make cold press olive oil?</h3>
+      <p>This is a different process to juicing and requires different machinery. The Hurom is not able to make oils from olives or any other fruit/vegetable.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3311"></a>
+      <h3>How does the Hurom cope with fibrous items such as celery and vanilla pods? </h3>
+      <p>The Hurom has no blades so some fibrous fruits and vegetables that have a "stringy" construction need to be pre-cut before juicing. Simply cut items to a short length of half an inch to avoid fibres getting wrapped around the internal mechanism.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3335"></a>
+      <h3>Can I make frozen sorbets with the Hurom?</h3>
+      <p>No. The Hurom is not designed to crush frozen items and doing so will likely result in damage to the strainer which will not be covered by the manufacturers warranty. We understand that some folks have been doing this on YouTube but they will inevitably end up breaking their machine by doing so and this is not covered by any warranty provided with this machine.</p>
+      <p>You can, however, use the Hurom Slow Juicer to prepare juice and then freeze to make a delicious sorbet or ice cream. Please see our <a href="/content/recipes.html#tabs-ice-cream">Recipes</a> page for some ideas.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3310"></a>
+      <h3>Can I make nut butters with the Hurom?</h3>
+      <p>You can make nut butters with the Hurom but it can be a little tricky. We recommend removing the wiper blade attachment. You should activate the nuts by soaking beforehand (check web for guides for specific nuts) and then rinsing. This will remove the enzyme inhibitors contained within nuts and will make them more digestible.</p>
+      <p>Note that the Hurom will eject some of the nuts paste through its waste chute. This can be mixed in with the remaining paste which will collect in the main housing of the Hurom. We do not recommend attempting to make any more than 500gms of nut butter at any one time. We are hoping for a blank screen attachment to be designed and manufactured as an upgrade item in the coming months and will announce this on the website as and when this happens.</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3374"></a>
+      <h3>Do you have a Nut Milk primer available?</h3>
+      <p>Yes! Here goes...</p>
+      <p>Firstly, you should soak your preferred nuts (use RAW nuts not roasted) in water for between 4-12 hours and then rinse them. This removes the enzyme inhibitors (nature's protective coating) which makes for a plumper, easier to juice nut as well as a more digestible nut milk.</p>
+      <p>Almonds make the creamiest milk but require the longest soaking (overnight minimum) - we recommend experimenting with other nuts and combining them - pistachios and almond milk is amazing!</p>
+      <p>Generally speaking, 250gms of nuts will produce a nice creamy litre of milk. Of course this is all down to personal preference and simply add more nuts / less water for a creamier milk or less nuts / more water for a thinner milk.</p>
+      <p>Once you've soaked and rinsed your nuts, place them in a bowl and get a bottle of water containing your desired amount of water (we recommend a bottle as it's easy to maintain a slow and constant stream of water into the Hurom).</p>
+      <p>Now switch the Hurom on and start placing handfuls of nuts into the Hurom feeder chute whilst slowly pouring the water in at the same time. The goal here is to be placing your last nuts into the feeder chute just as the water runs out. This takes a few times to get right but the results are well worth it.</p>
+
+      <h3>Flavourings:</h3>
+      <p>So this is where the fun starts - you can simply add any of the following items in with the nuts and the Hurom will do a great job of blending them in with the nut milk... As with anything you put into the Hurom, pre-cutting larger items will deliver better results and less blockages</p>
+      <ul>
+        <li>Dates (PLEASE remove the stones) - dates make a great sweetener for the milk without an overbearing taste - buy the moist plump organic ones from your local health store, avoid the harder mass manufactured varieties sold in colourful bags in supermarkets</li>
+        <li>Figs - chop small and remove the stalk</li>
+        <li>Fresh apple - chilled, cored Granny Smiths work best</li>
+        <li>Cinnamon - for best flavours get the bark rather than the pre-ground varieties. Soak for 4 hours and then rinse - this softens the bark and makes it easier for the Hurom to extract flavour from - go easy though as it's easy to overpower your milk with this stuff.</li>
+        <li>Dried fruit - pretty much any dried fruit acts as a great flavouring and sweetener for your milk - just cut into reasonably small pieces and experiment! Don't forget that dried fruits do have a high sugar content so don't go too crazy! Less is more!</li>
+        <li>Vanilla - avoid the processed stuff and seek out some good quality REAL pods from your local health store / deli. Cut into 1cm pieces and juice at the same time as your nuts. We recommend 1 whole pod per litre of milk. Pre-soaking the pod for a few hours will deliver better results. Unlike the nuts, you can use the water you soaked the vanilla pod in as the water to make your nut milk with.</li>
+        <li>Pistachios - more than any of the other nuts, we've found that a 50/50 mix with almonds produces a divine tasting nut milk with a beautiful pale green hue to it. Sweetened with raisins or dates and you'll have a drink fit for the Gods.</li>
+        <li>Cacao nibs - Cacao nibs are broken pieces of the the cacao bean and the cacao bean is where chocolate comes from. Cacao in this form is really high in antioxidants and makes a fantastic natural chocolate milk when processed through the Hurom with nut milk. The cacao nibs are naturally quite bitter and therefore may require some extra sweetening - dates are a good partner here, as is agave syrup. Soaking the nibs for 4+ hours will ensure max flavouring of the milk - we recommend starting with 2-3 tablespoons of cacao nibs and experimenting to your own tastes from there. <a href="http://www.lovingearth.com.au">www.lovingearth.com.au</a> import really high quality cacao nibs from Peru and are our favourite.</li>
+        <li>Agave Syrup - agave syrup is a great low GI alternative to sugar. It's very sweet and should be used sparingly - add to taste to your nut milk. <a href="http://www.lovingearth.com.au">www.lovingearth.com.au</a> import a great RAW processed agave syrup from Mexico which we recommend</li>
+      </ul>
+
+      <h3>Additional filtering:</h3>
+      <p>The fibre that remains in the milk after processing through the Hurom is no doubt good for you. However, some people may find prefer a super fine milk without any fibre residue. You can quickly and easily achieve this by pouring the milk through a professional culinary filter net</p>
+
+      <h3>For coffees etc:</h3>
+      <p>We've filtered almond nut milks (using the filter nets as described above) and had barristas froth the milk to surprisingly good results. Highly recommended!!!</p>
+      <a href="#what-to-juice" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3336"></a>
+      <h3>Is it safe to operate the Hurom with wet hands?</h3>
+      <p>As with any electrical appliance, care should be applied to ensure you have dry hands when switching the appliance on/off. Do not attempt to switch the Hurom on or off if you have wet hands.</p>
+      <a href="#operating" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3306"></a>
+      <h3>My Hurom keeps jamming, how do I prevent this from happening?</h3>
+      <p>The Hurom operates best when you find the right tempo at which to feed the fruits and vegetables down the chute and also the right size of fruit/vegetable.</p>
+      <p>Finding the right tempo comes with trial and error but listening out for the the "scrunching" up of the piece you've just fed into the machine will tell you that the Hurom is ready for more.</p>
+      <p>We find that just starting slow in inserting pieces into the machine and gradually speeding up until the machine clogs will give you the best indication. The general rule is that harder vegetables like carrots need a bit more time than say apples of oranges.</p>
+      <p>In terms of size, a small amount of preparation in advance of juicing will ensure optimal results and the fastest juicing. We recommend that all matter should be cut to a size where it can just fall through the chute without needing to be shoved.</p>
+      <p>If the machine does clog and cut out then you can simply hit the reverse button for 2-3 seconds and this will unblock the offending fruit/vegetable and you can then continue juicing by switching to forward.</p>
+      <a href="#operating" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3337"></a>
+      <h3>Can I re-juice the discarded pulp from the Hurom in order to get more juice?</h3>
+      <p>The Hurom is very effective at extracting high yields from the first pass but some users do put through the discarded pulp again to try and gain more juice yield. The results vary from fruit to fruit so feel free to experiment!</p>
+      <a href="#operating" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3339"></a>
+      <h3>Is the Hurom suitable for commercial environments?</h3>
+      <p>The manufacturer's recommendation is for operation not to run for longer than 30 minutes at a time with a suitable amount of time allowed for cooling in between. Therefore, if a commercial environment won't require usage beyond this then yes but if it's a busy cafe/bar then we recommend to have a number of Huroms to be used in rotation.</p>
+      <p>It is also important that appropriate training be given to any staff within a commercial environment as the usual approach to commercial juicing of just jamming fruits and vegetables down a pipe will not work with a Hurom.</p>
+      <a href="#operating" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3344"></a>
+      <h3>How long can I keep a Hurom juice for before it goes bad?</h3>
+      <p>There's no specific answer to this as there are too many variables based on type of produce and storage method. We recommend drinking your Hurom juices immediately to enjoy maximum taste and nutritional benefits.</p>
+      <p>However, if necessary you can refrigerate juices: fruit juices tend to last longer from a taste perspective: 24-48 hours. For vegetable juice, unless you have vacuum storage containers we'd advise 12 hours max. At the end of the day, fresh juice should be consumed freshly made &ndash; all other options deliver sub-optimal results.</p>
+      <p>We've kept nut milks for 3 days refrigerated and they still taste great.</p>
+      <p>The old rule applies that mother nature gave us - your nose - if it smells ok then it probably is!</p>
+      <a href="#operating" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3334"></a>
+      <h3>What's the best way to clean the Hurom and can I put the Hurom parts into a dishwasher?</h3>
+      <p>We suggest buying a long handled dish washing brush with firm bristles and cleaning the Hurom immediately after juicing under a running tap. You will most likely find following this method means you won't have to use washing up liquid &ndash; just keep an eye on your water usage though!</p>
+      <p>The manufacturer does not recommend using a dishwasher and nor do we. Using the method above is not only quicker but more effective as the juice and residue doesn't have time to dry on and stain permanently. Save yourself bother and always clean your Hurom as soon as you've finished using it.</p>
+      <p>On occasion you can soak the removable parts (not the base unit containing the motor!) in a baby bottle cleaning solution. This does a great job of removing some of the juice stains that can build up over time.</p>
+      <a href="#maintenance" class="top">Back to top</a>
+    </div>
+
+    <!--<div class="answer">-->
+      <!--<a name="faq3349"></a>-->
+      <!--<h3>Can I buy spares for the Hurom such as replacement wiper blades or jugs?</h3>-->
+      <!--<p>Yes! Please visit our online store at http://www.hurom.com.au</p>-->
+      <!--<a href="#maintenance" class="top">Back to top</a>-->
+    <!--</div>-->
+
+    <div class="answer">
+      <a name="faq3350"></a>
+      <h3>I've got a technical issue with my Hurom, who do I call for assistance?</h3>
+      <p>Please email <a href="mailto:info@hurom.com.au">info@hurom.com.au</a> outlining a brief description of the fault, how it occurred and any supporting photos if applicable. If this is a warranty claim then please provide a scanned copy of your receipt. We will respond usually within 24 hours.</p>
+      <a href="#maintenance" class="top">Back to top</a>
+    </div>
+
+    <div class="answer">
+      <a name="faq3469"></a>
+      <h3>Rubber yellow stopper on the underside of the drum - what purpose does it serve?</h3>
+      <p>The rubber yellow stopper acts as an ejection device for the pulp. When inserted into its slot, it pushes pulp out of the pulp tube and generally keeps the tube from blocking.</p>
+      <p>It's designed to be unplugged from the slot so that the ejection tube can be cleaned easily.</p>
+      <p>Always make sure you re-insert the plug prior to juicing. Attempting to juice without inserting the plug into its slot causes the Hurom to juice inefficiently and the pulp tube to become blocked.</p>
+      <p>It can be easy to forget this so get into the habit of checking on this before you juice each time.</p>
+      <a href="#maintenance" class="top">Back to top</a>
+    </div>
+
+    <div class="answer last">
+      <a name="faq3352"></a>
+      <h3>I'd like to recommend the Hurom to friends/colleagues/customers. Is there any agent/reseller programs you have in place to reward me for doing so?</h3>
+      <p>Yes! We believe that the best sales of Huroms are the ones that come from recommendations. For that reason we do offer incentives to for current Hurom owners to recommend Hurom to their communities. PLease drop us a line at <a href="mailto:info@hurom.com.au">info@hurom.com.au</a> outlining your ideas and we'll be happy to work with you on coming up with a good plan tailored to your specific needs.</p>
+      <a href="#general-questions" class="top">Back to top</a>
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer - Slow Squeezing System</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn what makes the Hurom Slow Juicer healthier, tastier, more efficient, versatile and faster">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="http://cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.selectbox/0.2/js/jquery.selectbox-0.2.min.js"></script>
+    <script src="/scripts/shop.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="/css/jquery-ui-1.10.2.custom.css" />
+    <link rel="stylesheet" href="/css/colorbox.css" />
+    <link rel="stylesheet" href="/css/jquery.selectbox.css" />
+
+    <script>
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+        $(".faq").colorbox({
+          inline: true,
+          width: "50%"
+        });
+        $(".juicer-thumbs").colorbox({
+          rel: "juicer-thumbs"
+        });
+        $("#model").selectbox();
+
+        var page = location.pathname.match(/\w*.html/)[0].split('.')[0];
+        var full_path = location.href.split("#")[0];
+        $("#nav a").each(function(){
+          var $this = $(this);
+          if($this.prop("href").split("#")[0] == full_path) {
+            alert("in");
+            $this.addClass("current");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.html"><img src="/images/logo@2x.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div class="facebook">
+  <div class="fb-like" data-href="http://www.facebook.com/pages/Hurom-Juicer/108616922534778" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false"></div>
+</div>
+    <div id="nav">
+  <ul>
+    <li class="current"><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a></li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="content">
+  <h1>Hurom Slow Juicer</h1>
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-sss">About the Hurom Slow Juicer</a></li>
+      <li><a href="#tabs-products">Products</a></li>
+      <li><a href="#tabs-why-hurom">Why Hurom?</a></li>
+    </ul>
+
+    <div id="tabs-sss">
+      <div class="section last">
+  <img src="/images/sss@2x.png" alt="Slow Squeezing System" class="left" width="110px" height="110px" />
+  <h2>Slow Squeezing System &ndash; SSS&trade;</h2>
+  <p>The Hurom Slow Squeezing System juices without friction or impact. The technology, exclusive to Hurom, gently
+    presses the fruit with low speed, minimising the loss of nutrients by heat and oxidation and maximising the natural
+    taste and nutrition.</p>
+</div>
+
+<img src="/images/hurom-vs-other-juicers.jpg" alt="Hurom Slow Juicer vs other juicers" class="right" style="margin-left: 40px;"/>
+
+<div style="overflow: auto">
+  <div class="section">
+    <h3>Higher nutrition</h3>
+    <img src="/images/higher-nutrients.png" alt="Six times the nutrients" class="left "/>
+    <p>
+      Hurom juice contains four times the nutrients and nearly six times the vitamins than that produced by a
+      traditional juicer.</p>
+  </div>
+
+  <div class="section">
+    <h3>Higher yield of juice</h3>
+    <img src="/images/higher-yield.png" alt="Twice the yield" class="left" />
+    <p>The Hurom Slow Juicer will yield around twice as much as a traditional juicer. </p>
+  </div>
+
+  <div class="section last">
+    <h3>Higher absorption factor</h3>
+    <img src="/images/higher-absorption.png" alt="20% better absorption" class="left" />
+    <p>Heat and friction can damage the enzymes in fruit and reduce how well our bodies can absorb their nutritional
+      value. Because the Hurom Slow Juicer slowly presses the fruit without heat or friction, it produces juice
+      with a 20% increased absorption rate and a rapid absorption time.</p>
+  </div>
+</div>
+    </div>
+    <div id="tabs-products">
+      <div class="product">
+  <div class="model">
+    <h4>Hurom&nbsp;Series&nbsp;Model</h4>
+    <h2>HU-500</h2>
+    <p>(HE-DBF04)</p>
+  </div>
+
+  <div class="pic">
+    <img src="/images/500-specs.jpg" alt="HU-500" />
+  </div>
+
+  <div class="specs">
+    <h3>Specifications</h3>
+    <dl>
+  <dt>Spout Cap</dt><dd>Yes</dd>
+  <dt>Self Cleaning</dt><dd>Yes</dd>
+  <dt>Strainer</dt><dd>1 Ultem strainer (fine), 1 coarse strainer</dd>
+  <dt>Accessories</dt><dd>2 Jugs, 1 Cleaning Brush</dd>
+  <dt>Voltage</dt><dd>220-240 volts</dd>
+  <dt>Power Consumption</dt><dd>150W</dd>
+  <dt>Motor Speed</dt><dd>80 rpm</dd>
+  <dt>Cord Length</dt><dd>1.4 metres</dd>
+  <dt>Weight</dt><dd>6.2 kg</dd>
+  <dt>Dimensions</dt><dd>155mm x 230mm x 400mm</dd>
+  <dt>Chute Size</dt><dd>5cm x 3.5cm</dd>
+  <dt>Rated Usage</dt><dd>Up to 30 minutes continuously</dd>
+  <dt>Warranty</dt><dd>10 years on motor, 2 years on parts</dd>
+  <dt>Colours</dt><dd>Wine Red, Ivory</dd>
+</dl>
+  </div>
+</div>
+
+<div class="product last">
+  <div class="model">
+    <h4>Hurom&nbsp;Series&nbsp;Model</h4>
+    <h2>HU-300</h2>
+    <p>(HU-300 MKII)</p>
+  </div>
+
+  <div class="pic">
+    <img src="/images/300-specs.jpg" alt="HU-300 MKII" />
+  </div>
+
+  <div class="specs">
+    <h3>Specifications</h3>
+    <dl>
+  <dt>Spout Cap</dt><dd>No</dd>
+  <dt>Self Cleaning</dt><dd>Yes</dd>
+  <dt>Strainer</dt><dd>1 Ultem Strainer</dd>
+  <dt>Accessories</dt><dd>2 Jugs, 1 Cleaning Brush</dd>
+  <dt>Voltage</dt><dd>220-240 volts</dd>
+  <dt>Power Consumption</dt><dd>150W</dd>
+  <dt>Motor Speed</dt><dd>80 rpm</dd>
+  <dt>Cord Length</dt><dd>1.4 metres</dd>
+  <dt>Weight</dt><dd>6.2 kg</dd>
+  <dt>Dimensions (LxWxH)</dt><dd>155mm x 212mm x 400mm</dd>
+  <dt>Chute Size</dt><dd>5cm x 3.5cm</dd>
+  <dt>Rated Usage</dt><dd>Up to 30 minutes continuously</dd>
+  <dt>Warranty</dt><dd>10 years on motor, 2 years on parts</dd>
+  <dt>Colours</dt><dd>White, Black, Silver, Dark Grey</dd>
+</dl>
+  </div>
+</div>
+    </div>
+    <div id="tabs-why-hurom">
+      <img src="/images/info.jpg" />
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

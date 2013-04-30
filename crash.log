@@ -1,0 +1,141 @@
+Crashlog created at 2013-04-22 23:16:52 +1000
+
+===== MESSAGE:
+
+ArgumentError: The path '' is not a directory!
+
+===== COMPILATION STACK:
+
+  (empty)
+
+===== STACK TRACE:
+
+  0. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/directory_record.rb:59:in `initialize'
+  1. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/listener.rb:246:in `new'
+  2. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/listener.rb:246:in `block in initialize_directories_and_directories_records'
+  3. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/listener.rb:246:in `map'
+  4. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/listener.rb:246:in `initialize_directories_and_directories_records'
+  5. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/listener.rb:31:in `initialize'
+  6. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib/listen/multi_listener.rb:11:in `initialize'
+  7. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/commands/watch.rb:84:in `new'
+  8. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/commands/watch.rb:84:in `run'
+  9. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  10. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  11. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  12. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/command_runner.rb:13:in `call'
+  13. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  14. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  15. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  16. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  17. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  18. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli.rb:52:in `block in run'
+  19. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  20. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  21. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib/nanoc/cli.rb:50:in `run'
+  22. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/bin/nanoc:19:in `<top (required)>'
+  23. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/bin/nanoc:19:in `load'
+  24. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/bin/nanoc:19:in `<main>'
+  25. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/bin/ruby_noexec_wrapper:14:in `eval'
+  ... 28 more lines omitted. See full crash log for details.
+
+===== VERSION INFORMATION:
+
+nanoc 3.6.2 © 2007-2013 Denis Defreyne.
+Running ruby 1.9.3 (2013-02-22) on x86_64-darwin12.3.0 with RubyGems 1.8.25.
+
+===== SYSTEM INFORMATION:
+
+Darwin Alanas-MacBook-Pro.local 12.3.0 Darwin Kernel Version 12.3.0: Sun Jan  6 22:37:10 PST 2013; root:xnu-2050.22.13~1/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  adsf 1.1.1
+  bundler 1.3.1, 1.3.4, 1.3.5
+  colored 1.2
+  commonjs 0.2.6
+  cri 2.3.0
+  ffi 1.7.0
+  less 2.3.1
+  libv8 3.11.8.17
+  listen 1.0.2
+  mime-types 1.22
+  nanoc 3.6.2
+  rack 1.5.2
+  rake 10.0.3
+  rb-fsevent 0.9.3
+  rb-inotify 0.9.0
+  rb-kqueue 0.2.0
+  ref 1.0.4
+  rubygems-bundler 1.1.1
+  rvm 1.11.3.6
+  therubyracer 0.11.4
+
+===== ENVIRONMENT:
+
+Apple_PubSub_Socket_Render => "/tmp/launch-GvYsZO/Render"
+Apple_Ubiquity_Message => "/tmp/launch-QbKqFB/Apple_Ubiquity_Message"
+CDM_HOST => "biq-aio-02"
+CDM_PASSWORD => "Maggie9("
+CDM_USERNAME => "NETWIDE\\alana.george"
+COLORFGBG => "12;8"
+COMMAND_MODE => "unix2003"
+GEM_HOME => "/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc"
+GEM_PATH => "/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc:/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@global"
+HOME => "/Users/aggeorge"
+IRBRC => "/Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/.irbrc"
+ITERM_PROFILE => "Default"
+ITERM_SESSION_ID => "w0t4p0"
+LANG => "en_AU.UTF-8"
+LOGNAME => "aggeorge"
+MY_RUBY_HOME => "/Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392"
+OLDPWD => "/Users/aggeorge"
+PATH => "/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/bin:/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@global/bin:/Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/bin:/Users/aggeorge/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+PWD => "/Users/aggeorge/work/nanoc"
+RUBY_VERSION => "ruby-1.9.3-p392"
+SECURITYSESSIONID => "186a4"
+SHELL => "/bin/bash"
+SHLVL => "1"
+SSH_AUTH_SOCK => "/tmp/launch-0pEcaa/Listeners"
+TERM => "xterm-256color"
+TERM_PROGRAM => "iTerm.app"
+TMPDIR => "/var/folders/1y/bb5zy3ys30x0nd2xc8h3sk4m0000gn/T/"
+USER => "aggeorge"
+_ => "/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/bin/nanoc"
+_ORIGINAL_GEM_PATH => "/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc:/Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@global"
+__CF_USER_TEXT_ENCODING => "0x1F5:0:0"
+__array_start => "0"
+_first => "0"
+_second => "1"
+escape_flag => "1"
+rvm_bin_path => "/Users/aggeorge/.rvm/bin"
+rvm_debug_clr => "\e[35m"
+rvm_error_clr => "\e[31m"
+rvm_notify_clr => "\e[32m"
+rvm_path => "/Users/aggeorge/.rvm"
+rvm_prefix => "/Users/aggeorge"
+rvm_reset_clr => "\e(B\e[m"
+rvm_version => "1.18.15 (stable)"
+rvm_warn_clr => "\e[33m"
+
+===== LOAD PATHS:
+
+  0. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib
+  1. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@global/gems/rubygems-bundler-1.1.1/lib
+  2. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/bundler-1.3.5/lib
+  3. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/colored-1.2/lib
+  4. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/cri-2.3.0/lib
+  5. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/nanoc-3.6.2/lib
+  6. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/rb-fsevent-0.9.3/lib
+  7. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/ffi-1.7.0/lib
+  8. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/ffi-1.7.0/ext/ffi_c
+  9. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/rb-inotify-0.9.0/lib
+  10. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/rb-kqueue-0.2.0/lib
+  11. /Users/aggeorge/.rvm/gems/ruby-1.9.3-p392@nanoc/gems/listen-1.0.2/lib
+  12. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby/1.9.1
+  13. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby/1.9.1/x86_64-darwin12.3.0
+  14. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby
+  15. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby/1.9.1
+  16. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin12.3.0
+  17. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby
+  18. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1
+  19. /Users/aggeorge/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/x86_64-darwin12.3.0

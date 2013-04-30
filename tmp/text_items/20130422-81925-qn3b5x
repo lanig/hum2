@@ -1,0 +1,98 @@
+div {
+  position: relative;
+}
+body {
+  background-color: #e1e1e1;
+  margin: 0 auto;
+  font-family: "Open Sans", Trebuchet, Trebuchet MS, Arial, sans-serif;
+}
+*:focus {
+  outline: none;
+}
+#header {
+  border-bottom: solid 2px #8dc63f;
+  height: 120px;
+  position: relative;
+}
+#header #header-inner {
+  margin: 0 auto;
+  width: 1140px;
+  background-color: #e1e1e1;
+}
+#header #header-inner #logo {
+  float: right;
+  text-align: right;
+  padding: 20px;
+}
+#header #header-inner #nav {
+  float: left;
+  margin-top: 70px;
+}
+#page {
+  width: 1140px;
+  background: #ffffff;
+  margin: 0 auto;
+  text-align: left;
+}
+#content {
+  clear: both;
+  float: none;
+  padding: 20px;
+}
+#nav ul {
+  list-style: none;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#nav li {
+  width: 6.5em;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+}
+#nav ul a {
+  text-decoration: none;
+  color: #7F7F7F;
+  display: block;
+  width: 100%;
+  font-size: .7em;
+}
+#nav ul a:hover,
+#nav li.current ul li a:hover {
+  text-decoration: underline;
+  background-color: #b9455e;
+  color: #FFFFFF;
+}
+#nav li.current a {
+  background-color: #C9D96A;
+}
+#nav li ul {
+  position: absolute;
+  top: auto;
+  left: -999em;
+  width: 6.5em;
+}
+#nav li:hover ul,
+#nav li.sfhover ul {
+  left: auto;
+}
+#nav li ul li {
+  background: #FFFFFF;
+  border: solid 1px #C9D96A;
+  border-top: 0;
+  margin-left: -1px;
+}
+#nav li.current ul li a {
+  background-color: #FFFFFF;
+}
+ul.warranty {
+  margin-top: 5px;
+  margin-left: -10px;
+}
+ul.warranty li {
+  color: #B9455E;
+  padding: 3px 0;
+}

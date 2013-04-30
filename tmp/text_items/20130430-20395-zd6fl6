@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer - Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Hurom Australia">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="http://cdn.jsdelivr.net/colorbox/1.4.4/jquery.colorbox-min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.selectbox/0.2/js/jquery.selectbox-0.2.min.js"></script>
+    <script src="/scripts/shop.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="/css/jquery-ui-1.10.2.custom.css" />
+    <link rel="stylesheet" href="/css/colorbox.css" />
+    <link rel="stylesheet" href="/css/jquery.selectbox.css" />
+
+    <script>
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+        $(".faq").colorbox({
+          inline: true,
+          width: "50%"
+        });
+        $(".juicer-thumbs").colorbox({
+          rel: "juicer-thumbs"
+        });
+        $("#model").selectbox();
+
+        var page = location.pathname.match(/\w*.html/)[0].split('.')[0];
+        var full_path = location.href.split("#")[0];
+        $("#nav li").each(function(){
+          var href = jQuery(this).find('a').attr('href');
+          var $this = $(this);
+          if (href === window.location.pathname) {
+            $this.addClass("current");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.html"><img src="/images/logo@2x.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div class="facebook">
+  <div class="fb-like" data-href="http://www.facebook.com/pages/Hurom-Juicer/108616922534778" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false"></div>
+</div>
+    <div id="nav">
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a></li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="content">
+  <h1>Recipes</h1>
+
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-general-enquiry">General Enquiry</a></li>
+      <li><a href="#tabs-wholesale-enquiry">Wholesale Enquiry</a></li>
+    </ul>
+
+    <div id="tabs-general-enquiry">
+      <form id="retail_form" class="enquiry" method="post" action="contactussubmitted.php">
+  <label for="retail_firstname">First Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="retail_firstname" name="retail_firstname" /><br />
+
+  <label for="retail_lastname">Last Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="retail_lastname" name="retail_lastname" /><br />
+
+  <label for="retail_email">Email&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="retail_email" name="retail_email" /><br />
+
+  <label for="retail_phone">Phone&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="retail_phone" name="retail_phone" /><br />
+
+  <label for="retail_company">Company</label>
+  <input type="text" id="retail_company" name="retail_company" /><br />
+
+  <label for="retail_comment">Comment</label>
+  <textarea id="retail_comment" cols="40" rows="5" name="retail_comment"></textarea><br />
+
+  <input type="submit" value="Submit" />
+</form>
+
+<p class="hotline">Hurom Australia Hotline: 1300 714 462</p>
+
+<p class="required"><span class="mandatory">*</span> Required field</p>
+    </div>
+    <div id="tabs-wholesale-enquiry">
+      <form id="wholesale_form" class="enquiry" method="post" action="wholesalecontactussubmitted.php">
+
+  <label for="firstname">First Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="firstname" name="firstname" /><br />
+
+  <label for="lastname">Last Name&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="lastname" name="lastname" /><br />
+
+  <label for="email">Email&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="email" name="email" /><br />
+
+  <label for="phone">Phone&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="phone" name="phone" /><br />
+
+  <label for="position">Position&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="position" name="position" /><br />
+
+  <label for="company">Company&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="company" name="company" /><br />
+
+  <label for="abn">ABN&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="abn" name="abn" /><br />
+
+  <label for="employees">Number of Employees&nbsp;<span class="mandatory">*</span></label>
+  <input type="text" id="employees" name="employees" /><br />
+
+  <label for="products">What other products do you sell?&nbsp;<span class="mandatory">*</span></label>
+  <textarea id="products" cols="40" rows="5" name="products"></textarea><br />
+
+  <label>Do you need drop-ship services?&nbsp;<span class="mandatory">*</span></label>
+  <input type="radio" name="dropship" value="Yes">Yes
+  <input type="radio" name="dropship" value="No">No<br />
+
+  <label>Type of Business&nbsp;<span class="mandatory">*</span> (check all that apply)</label>
+  <span class="check-item"><input type="checkbox" name="business[]" value="retailshop">Retail Shop</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="onlinesite">Online Site</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="ebay">eBay</span>
+  <span class="check-item"><input type="checkbox" name="business[]" value="mailorder">Mail-order</span><br />
+
+  <label for="comment">Comment&nbsp;<span class="mandatory">*</span></label>
+  <textarea id="comment" cols="40" rows="5" name="comment"></textarea><br />
+
+  <input src="/images/submitButton.png" type="submit" value="Submit"/>
+</form>
+
+<p class="hotline">Hurom Australia Hotline: 1300 714 462</p>
+<p class="required"><span class="mandatory">*</span> Required field</p>
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>

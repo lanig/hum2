@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hurom Slow Juicer - Shop</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Buy the Hurom Slow Juicer directly from Hurom Australia">
+    <meta name="keywords" content="Hurom,Hurom Juicer,Slow Juicer,Hurom Slow Juicer,Oscar,Juicepresso,Juicebuddy,Avancer,Coway,HU-300,HU-400,Juice Machine,Juicing Recipes,Juicing,Juice Extractor,Juicer,Electric Juicer,Cold Press Juicer,cancer,wellbeing,vitamins,minerals,wheatgrass" />
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.10.2.custom.css" />
+
+    <script>
+      $(document).ready(function() {
+        $( "#tabs" ).tabs();
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+	<div id="header-inner">
+    <div id="logo">
+      <a href="/index.html"><img src="/images/logo@2x.png" width="210px" height="100px" alt="Hurom Slow Juicer" /></a>
+    </div>
+    <div id="nav">
+  <ul>
+    <li class="current"><a href="/index.html">Home</a></li>
+    <li><a href="/content/juicer.html">Juicer</a>
+      <ul>
+        <li><a href="/content/products.html">Products</a></li>
+        <li><a href="/content/sss.html">SSS&trade;</a></li>
+        <li><a href="/content/superjuice.html">SuperJuice</a></li>
+        <li><a href="/content/why-hurom.html">Why&nbsp;Hurom?</a></li>
+        <li><a href="/content/versatility.html">Versatility</a></li>
+      </ul>
+    </li>
+    <li><a href="/content/recipes.html">Recipes</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQs</a></li>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+</div>
+
+  </div>
+</div>
+    <div id="page">
+      <div id="content">
+  <h1>Shop</h1>
+
+  <noscript><p class="mandatory"><strong> NOTE: This page requires JavaScript. You can enable it via your browser's preference settings. </strong></p></noscript>
+
+  <p>Buy online securely using your credit card or PayPal account.<br/>Price includes GST and shipping &amp; handling within <?=$country_name?>.</p>
+
+
+
+
+
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- specify the button -->
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="PZ9CDL6MU86H4">
+    <input type="hidden" name="lc">
+    <input type="hidden" name="item_name" value="Hurom Slow Juicer">
+    <input type="hidden" name="item_number" id="item_number">
+    <input type="hidden" name="amount" id="amount">
+    <input type="hidden" name="currency_code">
+    <input type="hidden" name="button_subtype" value="services">
+    <input type="hidden" name="no_note" value="0">
+    <input type="hidden" name="cn" value="Add special instructions to the seller:">
+    <input type="hidden" name="no_shipping" value="2">
+    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHosted">
+    <input type="hidden" name="page_style" value="Hurom">
+
+    <table class="shop">
+      <tr>
+        <td rowspan="8" style="vertical-align: top" width="180px;">
+          <div class="slideshow">
+            <img src="/images/winered.png" alt="HU-500 Wine Red" />
+            <img style="display: none" src="/images/ivory.png" alt="HU-500 Ivory White" />
+            <img style="display: none" src="/images/white.png" alt="HU-300 MK II White" />
+            <img style="display: none" src="/images/black2.png" alt="HU-300 MK II Black" />
+            <img style="display: none" src="/images/silver.png" alt="HU-300 MK II Silver" />
+            <img style="display: none" src="/images/grey.png" alt="HU-300 MK II Dark Grey" />
+          </div>
+        </td>
+        <td colspan="2">
+          <span class="model">HU-500</span>
+          <span class="rrp" id="rrp-500"></span>
+          <span class="sale" id="price-500"></span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <span class="model">HU-300 MKII</span>
+          <span class="rrp" id="rrp-300"></span>
+          <span class="sale" id="price-300"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Model:
+          <input type="hidden" name="on0" value="Model">
+        </td>
+        <td>
+          <select name="os0" id="model">
+            <option value="">Select Model</option>
+            <option value="HU_500-IvoryWhite">HU-500 Ivory White</option>
+            <option value="HU_500-WineRed">HU-500 Wine Red</option>
+            <option value="HU_300-White">HU-300 MKII White</option>
+            <option value="HU_300-Black">HU-300 MKII Black</option>
+            <option value="HU_300-Silver">HU-300 MKII Silver</option>
+            <option value="HU_300-DarkGrey">HU-300 MKII Dark Grey</option>
+            <?php if ($country != 'NZ') {?>
+            <option value="HU_000-Strainer">Ultem Strainer - $59.95</option>
+            <?php } else { ?>
+            <option value="HU_000-Strainer">Ultem Strainer - $79.95</option>
+            <?php } ?>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-bottom: 25px;">
+          Coupon:
+        </td>
+        <td style="padding-bottom: 25px;">
+          <input type="text" id="coupon"/>&nbsp;<input type="button" id="apply" class="apply button" value="Apply">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="border-top: solid 1px #C9D96A;"><span id="total">Total: </span></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="padding-top: 15px;">
+          <input id="buy" type="image" class="paypal" src="https://www.paypalobjects.com/en_AU/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+          <a href="#faq" class="faq"><img src="/images/faq.png" alt="FAQs" /></a>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <br/>
+
+  <div id="thumbs">
+    <div class="thumb">
+      <a class="group1" href="/images/detail-500-ivory.jpg" title="HU-500 Ivory White"><img src="/images/thumb-500-ivory.jpg" /></a><br/>
+      <span>HU-500 Ivory White</span>
+    </div>
+    <div class="thumb">
+      <a class="group1" href="/images/detail-500-wine-red.jpg" title="HU-500 Wine Red"><img src="/images/thumb-500-wine-red.jpg" /></a><br/>
+      <span>HU-500 Wine Red</span>
+    </div>
+    <div class="thumb">
+      <a class="group1" href="/images/detail-300-white.jpg" title="HU-300 MKII White"><img src="/images/thumb-300-white.jpg" /></a><br/>
+      <span>HU-300 MKII White</span>
+    </div>
+    <div class="thumb">
+      <a class="group1" href="/images/detail-300-silver.jpg" title="HU-300 MKII Silver"><img src="/images/thumb-300-silver.jpg" /></a><br/>
+      <span>HU-300 MKII Silver</span>
+    </div>
+    <div class="thumb">
+      <a class="group1" href="/images/detail-300-black.jpg" title="HU-300 MKII Black"><img src="/images/thumb-300-black.jpg" /></a><br/>
+      <span>HU-300 MKII Black</span>
+    </div>
+    <div class="thumb last">
+      <a class="group1" href="/images/detail-300-grey.jpg" title="HU-300 MKII Dark Grey"><img src="/images/thumb-300-grey.jpg" /></a><br/>
+      <span>HU-300 MKII Dark Grey</span>
+    </div>
+  </div>
+
+  <p class="left">Click an image above to see a larger view</p>
+  <p class="right"><a href="/content/products.html">Compare models</a></p>
+  <p style="float: none; clear: both;"></p>
+</div>
+
+
+
+</div>
+
+<div style='display:none'>
+  <div id='faq' style='padding:10px; background:#fff;'>
+    <h3>Shop FAQ</h3>
+    <dl>
+      <dt>Where do you ship from?</dt>
+      <dd>All of our juicers are shipped from Brisbane.</dd>
+
+      <dt>How quickly will my juicer ship?</dt>
+      <dd>We ship each day, Monday to Friday, hence depending on the time your order was placed, it should take no more than 24 hours to ship.</dd>
+
+      <dt>Which freight company do you use?</dt>
+      <dd>We ship via Australia Post eParcel which includes tracking and insurance.</dd>
+
+      <dt>How long will it take for my juicer to arrive?</dt>
+      <dd>For metro Brisbane, Sydney and Melbourne, your juicer will arrive in 2 to 3 days. For other regions within Australia, please allow 3 to 7 days for delivery.</dd>
+
+      <dt>Will I receive the Australian version or an overseas version?</dt>
+      <dd>You will receive the Australian version specifically made for Australia with the correct Australian plug and Australian Electrical certifications.</dd>
+
+      <dt>What is the Warranty?</dt>
+      <dd>The motor on all Hurom Slow Juicers is covered by a ten year manufacturer's warranty. The remaining parts are covered by a two year warranty.</dd>
+
+      <dt>How do I contact Hurom Australia?</dt>
+      <dd>If you have any further questions, please send an email to <a href="mailto:info@hurom.com.au">info@hurom.com.au</a>.  We will generally respond to all questions the day they are received.</dd>
+    </dl>
+  </div>
+</div>
+</div>
+    </div>
+    <div id="footer">
+  <ul>
+    <li><a href="/content/about-us.html">About Us</a></li>
+    <li><a href="/content/contact-us.html">Contact Us</a></li>
+    <li><a href="/content/warranty.html">Warranty</a></li>
+    <li><a href="/content/faq.html">FAQ</a></li>
+    <li><a href="/content/shop.html">Shop</a></li>
+  </ul>
+
+  <p>&copy; Copyright 2013 &ndash; Hurom Co. Ltd. All rights reserved.</p>
+</div>
+
+
+
+
+  </body>
+</html>
